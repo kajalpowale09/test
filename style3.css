@@ -1,0 +1,43 @@
+.{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.frow{
+    display: flex;
+    margin-left: 82px;
+    padding-top: 48px;
+}
+.f1{
+    background-color: burlywood;
+    width: 247px;
+    height: 294px;
+}
+#f1i{
+    width: 250px;
+    height: 293px;
+}
+.f2{
+    background-color: burlywood;
+    width: 247px;
+    height: 294px;
+}
+.f3{
+    background-color: burlywood;
+    width: 247px;
+    height: 294px;
+}
+.f4{
+    background-color: burlywood;
+    width: 247px;
+    height: 294px;
+}
+.srow{
+    display: flex;
+    margin-left: 82px;
+    padding-top: 48px;
+}
+h2{
+    text-align: center;
+   font-family: cursive;
+}

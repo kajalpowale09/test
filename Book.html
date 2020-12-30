@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BOOKING</title>
+        <link rel="stylesheet" type="text/css" href="style1.css">
+    </head>
+    <body>
+        <div class="read"><br>
+            <div class="a">
+               <div class="in">
+                <label id="n">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="fname"  id="fname"><br><br>
+                <label>Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" name="lname" id="fname"><br><br>
+                <label>Phone Number</label>&nbsp;&nbsp;&nbsp;
+                <input type="phone" name="ph" id="pname"><br><br>
+                <label>Date From</label>&nbsp;&nbsp;&nbsp;
+                <input type="date" name="date" id="date1">
+                <input type="time" name="time" id="time"><br><br>
+                <label>Date To</label>&nbsp;&nbsp;&nbsp;
+                <input type="date" name="date" id="date2">
+                <input type="time" name="time" id="time"><br><br>
+                <label>No. of People</label>&nbsp;&nbsp;&nbsp;
+                <input type="text" name="no" id="fname"><br><br>
+                <label>Comments</label><br>
+                <textarea id="farea"></textarea><br><br>
+                <button onclick="myFunction()" id="btn">BOOK NOW</button>
+                <script>
+                  function myFunction() {
+                   var txt;
+                   if(confirm("Succsessfully book.............")){
+                      txt="YOU PRESSED OK!";
+                  }
+                  else{
+                    txt = "YOU PRESSED CANCEL";
+       
+                  }
+                 }      
+                </script>
+
+            </div>
+            </div>
+        </div>
+
+
+    </body>
+</html>

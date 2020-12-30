@@ -1,0 +1,521 @@
+.{
+    margin:0px;
+    padding:0px;
+}
+.backimage {
+      background-image: url('fire.jpg');
+      background-size: 100% 110%;
+      height:100vh;
+      width: 100%;
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+    animation-name: animate;
+    animation-direction:alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+    @keyframes animate{
+      0%{
+          background-image:url('h2.jpg');
+      }20%{
+          background-image:url('h3.jpg');
+      }40%{
+        background-image:url('h4.jpg');
+      }60%{
+        background-image:url('h4.jpg');
+      }
+    
+
+    }
+
+.menu{
+    height:100px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+
+}
+.leftmenu{
+
+    width:20%;
+    float:left;
+    line-height:100px;
+
+  
+}
+.leftmenu h4{
+    color: white;
+    padding-left:70px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    margin:4px;
+    text-shadow: 2px 2px 5px red;
+    
+
+}
+.rightmenu{
+    width:80%;
+    height:100px;
+    float:right;
+ /*    background-color: red;  */
+    background-size: cover;
+}
+nav{
+    width:100%;
+    height:80px;
+    line-height:80px;
+}
+
+nav ul{
+  float:right;
+  margin-right:30px;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    transition:0.8s;
+}
+nav ul li:hover{
+    background-color:yellowgreen;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding:30px;
+}
+#firstlist{
+    color:white;
+    
+}
+.rightmenu ul li:hover{
+    color:orange;
+}
+
+.text{
+    width:100%;
+    margin-top:185px;
+    text-align:center;
+    
+}
+
+.text {
+    color: cornsilk;
+    font-weight: bold;
+    font-size:25px;
+
+}
+#book{
+  
+    border: none;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: lightsalmon;
+    
+
+}
+#book a{
+    text-decoration: none;
+    color:black;
+}
+* {
+    box-
+    +sizing: border-box;
+  }
+  
+  .column {
+      float:left;
+      width:33.33%;
+      padding:5px;
+
+  }
+
+   .row::after{
+        content:"";
+        display:table;
+        clear:both;
+  }
+
+  img.img-responsive.image-resize {
+    height: 400px;
+}
+.modern-title a{
+      font-size: 20px;
+      font-style: italic;
+      font-weight: 100;
+      transition: inherit;
+      border: none;
+}
+services-modern-price heading-5{
+    color:blue;
+
+}
+.img{
+    position: absolute;
+    top: 0px;
+    color:#fff;
+    padding:10px;
+}
+.textr{
+    
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+}
+.bookroom img{
+  opacity: 0.5;
+}
+h3.box {
+    text-align: right;
+    font-size: 36px;
+    padding: 2px;
+    margin-top: auto;
+     padding-right: 57px;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("lady.jpg");
+  
+    min-height: 618px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .container {
+    position: absolute;
+    right: 73px;
+    margin: 13px;
+    max-width: 393px;
+    padding: 45px;
+    background-color: floralwhite;
+}
+  
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+  
+  }
+  input[type=number] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+  
+  }
+  input[type=date] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+  
+  }
+ #Adults{
+    width: 100%;
+    padding: 15px;
+    border: none;
+  
+  }
+#Childern {
+    width: 100%;
+    padding: 15px;
+    border: none;
+  
+  }
+    
+  #btn{
+    width:298px;
+    padding:7px;
+    font-size: 17px;
+    font-weight:600px;
+    border:none;
+    border-radius:3px;
+    background-color: lightyellow;
+    outline:0;
+
+}
+#btn:hover {
+    opacity: 1;
+    background-color:green;
+  }
+  .gallery-section{
+      width: 100%;
+      padding:60px 0;
+      background: #f1f1f1;
+  }
+  .linear-width{
+      width:100%;
+      max-width:1200px;
+      margin:auto;
+      padding: 0 20px;
+  }
+.gallery-section h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:#333;
+}
+.border{
+    width:180px;
+    height:4px;
+    background:#333;
+    margin:60px auto;
+}
+.gallery-section .gallery{
+    display:flex;
+    flex-wrap:wrap-reverse;
+    justify-content:center;
+}
+.gallery-section .image{
+    flex:25%;
+    overflow:hidden;
+    cursor:pointer;
+}
+.gallery-section .image img{
+    width:100%;
+    height:100%;
+    transition:0.4s;
+}
+
+@media screen and (max-width:960px){
+    .gallery-section .image{
+        flex:33.33%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .gallery-section .image{
+        flex:50%;
+    }
+}
+@media screen and (max-width:480px){
+    .gallery-section .image{
+        flex:100%;
+    }
+}
+
+.special{
+    background-color: lightcoral;
+    width:80%;
+    max-height: 170%;
+    justify-content: center;
+    margin-left: 85px;
+    opacity:0.5;
+   
+}
+
+.mini-box{
+    display:flex;
+    
+}
+.offer{
+    text-align: center;
+    font-size: 20px;
+   
+}
+.box1{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 150px;
+    background-color: #bbb;
+    height: 80%;
+ 
+}
+.box2{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 150px;
+    background-color: #bbb;
+    height: 80%;
+    
+
+}
+.box3{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 150px;
+    background-color: #bbb;
+    height: 80%;
+}
+.box4{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 150px;
+    background-color: #bbb;
+    height: 80%;
+}
+.car{
+    width:40px;
+    height:31px;
+    align-items: center;
+}
+footer{
+    background:#111;
+    height:auto;
+    width:100vw;
+    font-family:"Open sans";
+    padding-top:40px;
+    color:#fff;
+    bottom:0;
+    left:0;
+    margin: 0 auto -50px;
+
+  
+}
+.footer-content{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   flex-direction:column;
+   text-align:center;
+   bottom:0;
+   left:0;
+}
+.text-content h3{
+    font-size:1.8rem;
+    font-weight:400;
+    text-transform:capitalize;
+    line-height:3rem;
+
+
+}
+.footer-content p{
+    max-width:500px;
+    margin:10px,auto;
+    line-height:28px;
+    font-size:center;
+}
+.socials{
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:1rem 0 3rem 0;
+
+}
+.socials li{
+     margin:0 10px;
+}
+.socials a{
+    text-decoration:none;
+    color:#fff;
+}
+.socials a i{
+    font-size:1.1rem;
+    transition:color .4s ease;
+
+}
+.socials a:hover i{
+    color:aqua;
+}
+.footer-bottom{
+    background:#000;
+    width:100vw;
+    padding:20px 0;
+    text-align:center;
+}
+.footer-bottom p{
+    font-size:14px;
+    word-spacing:2px;
+    text-transform:capitalize;
+}
+.footer-bottom span{
+    text-transform:uppercase;
+    opacity:.4;
+    font-weight:200;
+}
+.price{
+    display:flex;
+    text-align: center;
+
+    
+}
+
+.best h2 {
+    text-align:center;
+    margin-left: 492px;
+    
+   
+}
+.best h3 {
+    text-align:center;
+    margin-left: 470px;
+}
+.price{
+   
+    padding: 6px;
+    text-align: center;
+    margin-left:515px;
+    padding-bottom: 11px;
+    padding-top: 0px;
+    
+}
+.rent{
+   
+    margin-left:-477px;
+    text-align: center;
+}
+.firstb{
+    background-color: lightgrey;
+    width: 300px;
+    height: 394px;
+}
+
+.secb{
+    background-color: lightgrey;
+    width: 300px;
+    height: 394px;
+}
+.thirdb{
+    background-color: lightgrey;
+    width: 300px;
+    height: 394px;
+}
+.fourdb{
+    background-color: lightgrey;
+    width: 300px;
+    height: 394px;
+}
+#inb{
+   
+    width: 300px;
+    height: 210px;
+}
+#pr{
+    margin-left: 200px;
+     font-family: sans-serif;
+     font-style: italic;
+     text-shadow: mediumblue;
+     color: blue;
+}
+@media screen and (max-width:99%){
+    .backimage{
+        width:100%;
+
+    }
+    .menu{
+        height:70px;
+        width: 80%;}
+        
+        .leftmenu{
+             width:5px;
+            float:left;
+        }
+        .leftmenu h4{
+            font-size: 5px;
+           }
+
+}
